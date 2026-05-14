@@ -3,6 +3,9 @@
 [![npm version](https://img.shields.io/npm/v/opencode-notify-tool.svg)](https://www.npmjs.com/package/opencode-notify-tool)
 [![npm downloads](https://img.shields.io/npm/dw/opencode-notify-tool.svg)](https://www.npmjs.com/package/opencode-notify-tool)
 [![License: MPL-2.0](https://img.shields.io/badge/License-MPL--2.0-brightgreen.svg)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/jiwangyihao/opencode-notify-tool?style=social)](https://github.com/jiwangyihao/opencode-notify-tool/stargazers)
+
+套件导航 / Suite: [OpenCode J Super Suite](https://github.com/jiwangyihao/opencode-j-super-suite)
 
 > **Initial in v0.1.0 | v0.1.0 初始版本**
 >
@@ -166,7 +169,7 @@ export default createNotifyPlugin({
 
 - 两个包共享 `notify({ message, variant })` 的业务语义，但宿主适配层不同。不要把 OpenCode 包直接装到 OMP/Pi，也不要把 OMP/Pi 包直接装到 OpenCode。
 
-## 与未来 `opencode-loop-safety` 配合
+## 与 `opencode-loop-safety` 配合
 
 Loop Safety 可以通过外部 `notify`、`wait`、`question` 工具获得完整通道。本包只负责非阻塞通知。
 
@@ -329,7 +332,7 @@ Use [`opencode-wait`](https://github.com/jiwangyihao/opencode-wait) when the age
 
 - Both packages share the `notify({ message, variant })` contract, but their host adapters are different. Do not install the OpenCode package into OMP/Pi or the OMP/Pi package into OpenCode.
 
-## Working with future `opencode-loop-safety`
+## Working with `opencode-loop-safety`
 
 Loop Safety can get a complete channel through external `notify`, `wait`, and `question` tools. This package only handles non-blocking notifications.
 
